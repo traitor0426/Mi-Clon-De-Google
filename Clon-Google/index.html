@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página clon del buscador de Google">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap')">
+</head>
+
+<!-Primer diferencia: En la lineas 20, 23 y de la 30 a la 33 se agregan link para el Gmail y una imagen->
+<body>
+    <header>
+        <nav>
+            <ul class="nav-right--section">
+                <li>
+                    <a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com.mx/imghp?hl=es&tab=ri&ogbl">Imágenes</a>
+                </li>
+                <a href="#">
+                    <li class="menu-icon">
+                    </li>
+                </a>
+                <li>
+                    <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=act&pli=1"><img
+                            src="https://lh3.googleusercontent.com/ogw/ADGmqu_Mk3m1VQZZ3DKKMuSS2nRCcQsj2iSUdBH7L3jU=s32-c-mo"
+                            alt="Profile picture"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-Segunda diferencia: En la linea 44 se agrego el link para el logo de google->
+    <main>
+        <section class="main-logo">
+            <picture>
+                <img src="./assets/imgs/google_logo.svg" alt="Google logo">
+            </picture>
+        </section>
+        <section class="main-input">
+            <div class="main-input--container">
+                <span class="search-icon"></span>
+                <!-Tercera diferencia: En la linea 51 se quita el PLACEHOLDER el cual tenia un enunciado->
+                <input type="text">
+                <a class="voice-icon" href="#"></a>
+            </div>
+        </section>
+        <section class="main-buttons">
+            <div>
+                <!-Cuarta diferencia:Se cambiaron los nombre de los botones->
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Me siento con suerte</button>
+            </div>
+        </section>
+    </main>
+    <!-Quinta diferencia:Es que se agregaron nuevos link en las lineas 70, 71,73, 75, 77 y de la 80 a la 82 ->
+    <footer>
+        <ul class="footer-left">
+            <li><a
+                    href="https://www.google.com/intl/es-419_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            </li>
+            <li><a
+                    href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+            </li>
+            <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre
+                    Google</a></li>
+            <li><a href="https://google.com/search/howsearchworks/?fg=1">Como funciona la búsqueda</a></li>
+        </ul>
+        <ul class="footer-right">
+            <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+            <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+            <li><a href="https://www.google.com/preferences?hl=es-419">Preferencias</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
